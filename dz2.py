@@ -9,7 +9,7 @@ hash_path=''
 def get_commit_dependencies(file_hash):
     result = subprocess.run(f"git -C {repo_path} log --pretty=format:%H --all --find-object={file_hash}", shell=True, capture_output=True, text=True)
     commit_list = result.stdout.strip().splitlines()
-    print(commit_list)
+    
     dependencies = {}
     for commit in commit_list:
         dependencies[commit]=[]
@@ -64,7 +64,7 @@ def main():
 
 
     dependencies= get_commit_dependencies(file_hash)
-    print(dependencies)
+    
     create_plantuml_file(dependencies)
 
     print("Генерация изображения графа...")
