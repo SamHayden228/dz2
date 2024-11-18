@@ -1,0 +1,6 @@
+@startuml
+skinparam style strictuml
+entity "b64136"
+entity "7f33f1" #red
+"b64136" --> "7f33f1"
+@enduml
