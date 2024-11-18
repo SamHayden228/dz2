@@ -20,8 +20,10 @@
 
 Все функции визуализатора зависимостей должны быть покрыты тестами.
 Тестирование: 
+
 Хеш: 64ceee0cfd4decdf321ad2b1c258d463e8b0398c
 Результат: ![image](https://github.com/user-attachments/assets/3f9730d6-ca14-42e4-a2f6-258650cc3a2a)
+
 Хеш:e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
 Результат: ![image](https://github.com/user-attachments/assets/a6f9ebe1-ace4-46bd-9521-78ba19ef7535)
 
